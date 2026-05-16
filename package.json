@@ -24,7 +24,7 @@
 		"@twurple/eventsub-ws": "^7.2.1",
 		"@twurple/pubsub": "^7.3.0",
 		"@vueuse/core": "^12.5.0",
-		"axios": "1.8.2",
+		"axios": "^1.15.2",
 		"dompurify": "3.2.4",
 		"hls.js": "^1.5.19",
 		"md5": "^2.3.0",
