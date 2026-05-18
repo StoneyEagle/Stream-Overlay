@@ -24,8 +24,8 @@
   "@twurple/eventsub-ws": "^7.2.1",
   "@twurple/pubsub": "^7.3.0",
   "@vueuse/core": "^12.5.0",
-  "axios": "^1.15.2",
-  "dompurify": "3.2.4",
+  "axios": "^1.16.1",
+  "dompurify": "^3.4.5",
   "hls.js": "^1.5.19",
   "md5": "^2.3.0",
   "obs-websocket-js": "^5.0.6",
@@ -63,14 +63,23 @@
   "vite": "^7.3.2",
   "vite-plugin-vue-devtools": "^7.6.8"
   },
-  "overrides": {
-  "minimatch": "^3.1.4",
-  "picomatch": "^2.3.2",
-  "ajv": "^6.14.0",
-  "lodash": "^4.18.0",
-  "@eslint/plugin-kit": "^0.3.4",
-  "qs": "^6.14.2",
+  "resolutions": {
+  "axios": "^1.16.1",
+  "ws": "^8.20.1",
+  "postcss": "^8.5.14",
   "follow-redirects": "^1.16.0",
-  "brace-expansion": "^4.0.1"
+  "superagent/form-data": "^3.0.4",
+  "form-data": "^4.0.5",
+  "minimatch": "9.0.7",
+  "picomatch": "4.0.4",
+  "yaml": "^2.8.3",
+  "flatted": "^3.4.2",
+  "immutable": "^5.1.5",
+  "rollup": "^4.60.4",
+  "qs": "^6.15.2",
+  "glob": "^10.5.0",
+  "js-yaml": "^4.1.1",
+  "lodash": "^4.18.1",
+  "dompurify": "^3.4.5"
 }
 }
